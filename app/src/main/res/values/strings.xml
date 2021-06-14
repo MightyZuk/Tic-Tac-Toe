@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TIC TAC TOE</string>
+    <string name="button">Button</string>
+    <string name="start">START</string>
+    <string name="player_1_x">Player 1 : X</string>
+    <string name="player_2_o">Player 2 : O</string>
+    <string name="o">O</string>
+    <string name="x">X</string>
+    <string name="grid">grid</string>
+    <string name="second">second</string>
+    <string name="third">third</string>
+    <string name="four">four</string>
+    <string name="first">first</string>
+    <string name="five">five</string>
+    <string name="six">six</string>
+    <string name="seven">seven</string>
+    <string name="eight">eight</string>
+    <string name="nine">nine</string>
+    <string name="name">Name</string>
+    <string name="tic_tac_toe">TIC TAC TOE</string>
+    <string name="x_s_turn">X\'s turn</string>
+    <string name="slash">/</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backGround"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D37D9A"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="57dp"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/start"
+        android:background="@drawable/custom_button"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <Button
+        android:id="@+id/x"
+        android:layout_width="100dp"
+        android:layout_height="106dp"
+        android:background="@drawable/xbutton"
+        android:rotationY="25"
+        android:text="@string/x"
+        android:textColor="#000000"
+        android:textSize="61sp"
+        android:textStyle="normal"
+        app:layout_constraintBaseline_toBaselineOf="@+id/o"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/o"
+        android:layout_width="110dp"
+        android:layout_height="108dp"
+        android:background="@drawable/xbutton"
+        android:rotationY="-25"
+        android:text="@string/o"
+        android:textColor="#000000"
+        android:textSize="65sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.717"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <Button
+        android:id="@+id/gameName"
+        android:layout_width="314dp"
+        android:layout_height="85dp"
+        android:padding="5dp"
+        android:background="@drawable/game"
+        android:text="@string/tic_tac_toe"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        android:onClick="onTap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
